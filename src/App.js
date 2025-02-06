@@ -1,12 +1,12 @@
 import React from 'react'
-import AboutPage from './pages/AboutPage'
 import Navbar from './Common/Navbar'
 import Footer from './Common/Footer'
+import ServicePage from './pages/ServicePage'
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <AboutPage/>
+      <ServicePage/>
       <Footer/>
     </div>
   )
